@@ -1,0 +1,13 @@
+name: clingoJupyter
+channels:
+  - conda-forge
+  - defaults
+  - potassco
+dependencies:
+  - python=3.8
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pandas
+  - clingo
+  - clorm

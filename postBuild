@@ -1,0 +1,9 @@
+#!/bin/bash
+curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain nightly
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.profile
+source ~/.profile
+git clone https://github.com/potassco/anthem.git
+cd anthem
+cargo +nightly build --release
+echo 'export PATH="$HOME/anthem/target/release:$PATH"' >> ~/.profile
+source ~/.profile
