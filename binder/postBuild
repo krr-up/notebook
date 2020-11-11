@@ -1,3 +1,0 @@
-#!/bin/bash
-IPYLOC=`ipython locate profile`
-echo 'alias_magic clingo script -p "clingo --no-raise-error"' >> $IPYLOC/startup/config.ipy
