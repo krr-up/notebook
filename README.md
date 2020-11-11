@@ -1,11 +1,9 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krr-up/notebook.git/exercises)
 
-## Run a cell with magic command %%clingo
-```
-%%clingo 0
-p:- not q.
-q:- not p.
-```
-## Run a file sample.lp with command !clingo
-```
-!clingo 0 sample.lp
+# Learning Answer Set Programming from Examples
+
+This notebook collects exercises to learn Answer Set Programming from Examples.
+
+It is part of the Answer Set Solving in Practice course of the the University of Potsdam.
+
+
