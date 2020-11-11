@@ -4,6 +4,6 @@
 
 This notebook collects exercises to learn Answer Set Programming from Examples.
 
-It is part of the Answer Set Solving in Practice course of the the University of Potsdam.
+It is part of the Answer Set Solving in Practice course of the University of Potsdam.
 
 
