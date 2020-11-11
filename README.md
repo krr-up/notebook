@@ -2,7 +2,7 @@
 
 This repository is a collection of interactive Jupyter Notebooks, where you can run answer set programs using clingo in a browser. 
 We use [mybinder](https://mybinder.org/) for building and sharing the interactive environment for this repository. 
-More information on how a Binder repository is built can be found [!here](https://mybinder.readthedocs.io/en/latest/introduction.html).
+More information on how a Binder repository is built can be found [here](https://mybinder.readthedocs.io/en/latest/introduction.html).
 
 ## Usage
 
