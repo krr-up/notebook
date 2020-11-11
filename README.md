@@ -5,8 +5,7 @@ We use [mybinder](https://mybinder.org/) for building and sharing the interactiv
 
 ## Usage
 
-- First click here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krr-up/notebook.git/main) to open a notebook server. 
-
+- First click on this binder badge to open a notebook server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krr-up/notebook.git/main)
 - Check out `sample ipynb` for a small introduction on how to use clingo in Jupyter Notebooks.
 - Use `%%clingo` : the magic cell command for running answer set program specificied in a cell.
 - Use `!clingo` as a shell command for running an answer set program saved in a file.
