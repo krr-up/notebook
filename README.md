@@ -7,7 +7,7 @@ More information on how a Binder repository is built can be found [here](https:/
 ## Usage
 
 - First click on this binder badge to open a notebook server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krr-up/notebook.git/main)
-- Check out `sample ipynb` for a small introduction on how to use clingo in Jupyter Notebooks.
+- Check out `sample.ipynb` for a small introduction on how to use clingo in Jupyter Notebooks.
 - Use `%%clingo` : the magic cell command for running answer set program specificied in a cell.
 - Use `!clingo` as a shell command for running an answer set program saved in a file.
 - You can create a new notebook or upload an existing one in the Home Page or the specific folder of your instance of Jupyter notebook server. 
@@ -29,6 +29,6 @@ For a list of all configuration files available, check [this](https://mybinder.r
 The configuration files used in this repository are:
 1. **environment.yml** to install conda packages.
 2. **postBuild** is a script that contains commands to be run after the whole repository has been built. 
-  The one in this repository contains an example of creating an alias for a magic command and which will be available to any notebook created after launch.         Similarly you can add more magic commands or other ipython codes that will be executed before starting the notebook server, and can be used by all the notebooks   in the repository.
+  The one in this repository contains an example of creating an alias for a magic command that will be available to any notebook created after launch.         Similarly you can add more magic commands or other ipython codes that will be executed before starting the notebook server, and can be used by all the notebooks   in the repository.
 
 
