@@ -14,6 +14,7 @@ More information on how a Binder repository is built can be found [here](https:/
   After finishing the work, you can save the notebook on your device by downloading it.  
 - Visit the branch `exercises` to access the notebooks relevant for the ASP course.
 - The branch `examples` contains some notebooks with answer set programs, along with clingo and other [potasso systems](https://github.com/potassco/).
+- To try other notebook user interfaces, check [this](https://mybinder.readthedocs.io/en/latest/howto/user_interface.html).
 
 ### Adding new notebooks
 
