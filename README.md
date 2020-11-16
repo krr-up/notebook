@@ -11,7 +11,7 @@ More information on how a Binder repository is built can be found [here](https:/
 - Use `%%clingo` : the magic cell command for running answer set program specificied in a cell.
 - Use `!clingo` as a shell command for running an answer set program saved in a file.
 - You can create a new notebook or upload an existing one in the Home Page or the specific folder of your instance of Jupyter notebook server. 
-  After finishing the work, you can save the notebook on your device by downloading it.  
+  After finishing the work, you can save the notebook on your device by downloading it.  For saving your current work across multiple notebooks or directories, save the respective notebooks, compress them to a tar.gz file using the terminal and download it. To resume working on the notebooks in a new binder instance, upload and extract that compressed file.
 - Visit the branch `exercises` to access the notebooks relevant for the ASP course.
 - The branch `examples` contains some notebooks with answer set programs, along with clingo and other [potasso systems](https://github.com/potassco/).
 - To try other notebook user interfaces, check [this](https://mybinder.readthedocs.io/en/latest/howto/user_interface.html).
