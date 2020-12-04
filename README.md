@@ -6,7 +6,7 @@ More information on how a Binder repository is built can be found [here](https:/
 
 ## Usage
 
-- First click on this binder badge to open a notebook server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krr-up/notebook.git/main)
+- First click on this binder badge to open a notebook server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krr-up/notebook.git/anthem)
 - Check out `sample.ipynb` for a small introduction on how to use clingo in Jupyter Notebooks.
 - Use `%%clingo` : the magic cell command for running answer set program specificied in a cell.
 - Use `!clingo` as a shell command for running an answer set program saved in a file.
