@@ -1,3 +1,17 @@
 #!/bin/bash
 IPYLOC=`ipython locate profile`
 echo 'alias_magic clingo script -p "clingo --no-raise-error"' >> $IPYLOC/startup/config.ipy
+curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain nightly
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.profile
+source ~/.profile
+git clone -b 4.4 --depth 1  https://github.com/vprover/vampire.git
+cd vampire
+make vampire
+echo 'export PATH="$HOME/vampire:$PATH"' >> ~/.profile
+source ~/.profile
+cd ..
+git clone https://github.com/potassco/anthem.git
+cd anthem
+cargo +nightly build --release
+echo 'export PATH="$HOME/anthem/target/release:$PATH"' >> ~/.profile
+source ~/.profile
