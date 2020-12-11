@@ -6,6 +6,7 @@ channels:
 dependencies:
   - python=3.9
   - ipython=7.19
+  - jupyter_contrib_nbextensions
   - clingo
   - clorm
 
