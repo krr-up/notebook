@@ -7,4 +7,5 @@ dependencies:
   - python=3.9
   - ipython=7.19
   - clingo
+  - clorm
 
