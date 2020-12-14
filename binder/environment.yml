@@ -9,4 +9,6 @@ dependencies:
   - jupyter_contrib_nbextensions
   - clingo
   - clorm
+  - pandas
+  - matplotlib
 
