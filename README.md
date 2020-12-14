@@ -1,4 +1,4 @@
-# Clingo in Jupyter Notebooks
+# Clingo with Jupyter Notebooks
 
 This repository is a collection of interactive Jupyter Notebooks for running answer set programs using clingo.
 
@@ -6,13 +6,14 @@ This repository is a collection of interactive Jupyter Notebooks for running ans
 
 You can either use the notebooks locally by installing clingo and jupyter notebooks or use [mybinder](https://mybinder.org/), which builds the interactive environment for you. 
 
-### 1. Use the notebooks locally by installation 
+### 1. Use the notebooks locally by installing clingo and jupyter notebook 
 
 - Install [clingo](https://potassco.org/clingo/) and [classic Jupyter Notebook](https://jupyter.org/install) in your local machine.
 -  Run the following in the terminal to make `%%clingo` an alias for `%%script --no-raise-error clingo`, where `%%script` is a built-in magic-command in ipython.  
 ```
 IPYLOC=`ipython locate profile` 
-echo 'alias_magic clingo script -p "clingo --no-raise-error"' >> $IPYLOC/startup/config.ipy ```
+echo 'alias_magic clingo script -p "clingo --no-raise-error"' >> $IPYLOC/startup/config.ipy 
+```
 
 - You can also install, enable or disable notebook extensions from [here](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html). Some examples are [Collapsible headings](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html) and  [Table of contents](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html).
 
