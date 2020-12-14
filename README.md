@@ -1,4 +1,4 @@
-# Clingo in Jupyter Notebooks
+# Clingo with Jupyter Notebooks
 
 This repository is a collection of interactive Jupyter Notebooks for running answer set programs using clingo.
 
