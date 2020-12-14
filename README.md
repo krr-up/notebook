@@ -6,7 +6,7 @@ This repository is a collection of interactive Jupyter Notebooks for running ans
 
 You can either use the notebooks locally by installing clingo and jupyter notebooks or use [mybinder](https://mybinder.org/), which builds the interactive environment for you. 
 
-### 1. Use the notebooks locally by installation 
+### 1. Use the notebooks locally by installating clingo and jupyter notebook 
 
 - Install [clingo](https://potassco.org/clingo/) and [classic Jupyter Notebook](https://jupyter.org/install) in your local machine.
 -  Run the following in the terminal to make `%%clingo` an alias for `%%script --no-raise-error clingo`, where `%%script` is a built-in magic-command in ipython.  
